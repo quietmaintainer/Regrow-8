@@ -43,6 +43,8 @@ The four CPU failures disconnected a fixed pad from the dock's healthy component
 
 **4. Protect the recipe itself.** The [benchmark](benchmark.mjs) uses the existing [global GF(2¹⁶) `.grfp` encoder and decoder](../file_recipe/PROTECTION.md). It deletes the whole recipe data frame, gives the decoder only the shortened archive and verifies both recovered recipe and regenerated archive byte-for-byte. **All benchmark builds consume the recovered recipe.** At a nominal 5% parity each small archive gets one whole parity frame; this is a frame-erasure budget, not a byte-overhead claim.
 
+Use the standalone Rust CLI to inspect or recover the recorded ALU and CPU archives. [GRFP recovery guide](https://github.com/quietmaintainer/grfp#build-and-use)
+
 | Bytes on disk or in the specified encoding | ALU | CPU |
 |---|---:|---:|
 | Dense programmed grid (18 bytes/site, including tags and switches) | 73,728 | 73,728 |

@@ -32,6 +32,8 @@ To design a circuit in Python, write it in PyRTL and compile it to a Regrow-8 `.
 
 Run `node examples/machine_recipe/chip.mjs check circuit inverter.txt` to check that the recipe grows and meets the fabric's timing bound. Use `check cpu` or `check alu` for the corresponding instruction tests. [CPU](recipes/cpu.txt) · [Counter](recipes/counter.txt) · [ALU](recipes/alu.txt)
 
+Use GRFP to pack a recipe file into a parity-protected archive for storage and recovery. [GRFP Archive Format](https://github.com/quietmaintainer/grfp)
+
 ## Experiments
 
 With Node 22 or later, run `npm test` to check the fabric, viewer simulation, and repair experiments. The experiment guide covers the ISA, the matched wiring tests, live triplicated CPU registers, and two mutually repairing cores with parity-protected `.grfp` recipes. [Experiment guide](examples/machine_recipe/README.md) · [Recorded results](examples/machine_recipe/results/autonomy.json)
