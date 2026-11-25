@@ -28,6 +28,8 @@ output y inverse
 
 Use `NOT` or `DFF` with one input, `AND`, `OR`, or `XOR` with two, and `MUX` with a selector followed by the inputs for 0 and 1. A `DFF` captures its input on the rising edge.
 
+To design a circuit in Python, write it in PyRTL and compile it to a Regrow-8 `.txt` recipe. [Circuit Recipe Compiler (CRC) guide](https://github.com/quietmaintainer/CRC#write-your-own-circuit)
+
 Run `node examples/machine_recipe/chip.mjs check circuit inverter.txt` to check that the recipe grows and meets the fabric's timing bound. Use `check cpu` or `check alu` for the corresponding instruction tests. [CPU](recipes/cpu.txt) · [Counter](recipes/counter.txt) · [ALU](recipes/alu.txt)
 
 ## Experiments
