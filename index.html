@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Grow a digital circuit from a recipe, damage it, and watch it repair on a 64 × 64 logic grid.">
+  <meta name="theme-color" content="#111a23">
+  <title>Regrow-8</title>
+  <link rel="stylesheet" href="./web/demo.css">
+  <script type="module" src="./web/demo.mjs"></script>
+</head>
+<body>
+  <main class="app">
+    <header class="app-title">
+      <h1>Regrow-8</h1>
+      <p>Grow a circuit from a recipe, damage it, and watch it repair.</p>
+    </header>
+
+    <div class="workbench">
+      <section class="fabric" aria-label="Circuit fabric">
+        <div class="controls" role="group" aria-label="Simulation controls">
+          <button id="run" class="primary" type="button" disabled>Play</button>
+          <button id="step" type="button" disabled>Step</button>
+          <button id="reset" type="button" disabled>Reset</button>
+          <span class="dimensions">64 × 64</span>
+        </div>
+        <div id="computer-recipe-tape" role="group" aria-label="Counter construction tape" hidden>
+          <span>Edge tape</span>
+          <div id="computer-tape-symbols" aria-hidden="true"></div>
+          <span id="computer-tape-position"></span>
+        </div>
+        <div class="board">
+          <canvas id="fabric" width="800" height="800" tabindex="0" role="img" aria-label="Circuit fabric"
+            aria-describedby="keyboard-help" aria-controls="inspector"></canvas>
+        </div>
+        <div class="board-footer">
+          <output id="progress" aria-live="off">Loading circuit…</output>
+          <ul id="computer-recipe-legend" class="legend" aria-label="Grid legend" hidden>
+            <li><i style="--key-color:#45a69d" aria-hidden="true"></i>Wire</li>
+            <li><i style="--key-color:#b8fff2" aria-hidden="true"></i>Logic 1</li>
+            <li><i style="--key-color:#69d5c3" aria-hidden="true"></i>Gate</li>
+            <li><i style="--key-color:#ad9beb" aria-hidden="true"></i>Register</li>
+            <li><i style="--key-color:#f5c477" aria-hidden="true"></i>Construction</li>
+            <li><i style="--key-color:#e58389" aria-hidden="true"></i>Damage</li>
+          </ul>
+        </div>
+        <p id="keyboard-help" class="visually-hidden">Use arrow keys to select a cell, Enter to select the dock, Space to apply the selected damage tool, or Escape to clear the selection.</p>
+      </section>
+
+      <aside class="sidebar" aria-label="Circuit controls and readout">
+        <section id="computer-recipe-console" class="panel" aria-labelledby="recipe-title" hidden>
+          <header class="panel-heading">
+            <h2 id="recipe-title">Circuit</h2>
+            <p id="computer-recipe-status" role="status">Loading recipe…</p>
+          </header>
+          <p id="load-error" role="alert" hidden></p>
+          <label class="control-field" for="computer-recipe-design">Design
+            <select id="computer-recipe-design" disabled>
+              <option value="cpu">8-bit CPU</option>
+              <option value="counter">4-bit enabled counter</option>
+            </select>
+          </label>
+          <dl class="registers" data-computer-cpu>
+            <div><dt>Program counter</dt><dd data-computer="pc">—</dd></div>
+            <div><dt>Accumulator</dt><dd data-computer="accumulator">—</dd></div>
+          </dl>
+          <section aria-labelledby="rom-title" data-computer-cpu>
+            <h3 id="rom-title">Program ROM</h3>
+            <ol id="computer-recipe-rom" start="0"></ol>
+          </section>
+          <section aria-labelledby="ram-title" data-computer-cpu>
+            <h3 id="ram-title">External RAM</h3>
+            <dl id="computer-recipe-ram"></dl>
+          </section>
+          <section id="computer-recipe-counter" aria-label="Counter output" hidden>
+            <dl class="registers">
+              <div><dt>Binary count</dt><dd data-computer="count-binary">—</dd></div>
+              <div><dt>Decimal count</dt><dd data-computer="count-decimal">—</dd></div>
+            </dl>
+            <label class="enable"><input id="computer-recipe-enable" type="checkbox" checked> Enable counting</label>
+          </section>
+          <fieldset>
+            <legend>Damage</legend>
+            <label class="control-field">Tool
+              <select id="computer-recipe-tool">
+                <option value="inspect">Inspect</option>
+                <option value="erase">Erase</option>
+                <option value="disable">Disable permanently</option>
+              </select>
+            </label>
+            <label class="control-field">Radius
+              <select id="computer-recipe-radius" disabled>
+                <option value="0">Single cell</option>
+                <option value="2">2 cells</option>
+                <option value="4" selected>4 cells</option>
+                <option value="8">8 cells</option>
+              </select>
+            </label>
+            <button id="computer-recipe-sample" type="button" disabled>Test 15% permanent faults</button>
+          </fieldset>
+          <p id="computer-recipe-help">Play runs the circuit. Step advances one build step or clock edge. Click a cell to inspect it or use the selected tool.</p>
+          <p id="computer-recipe-stats" hidden></p>
+        </section>
+
+        <section id="inspector" class="panel" aria-labelledby="cell-title" hidden>
+          <h2 id="cell-title">Selected cell</h2>
+          <dl id="computer-recipe-inspector" class="cell-attributes">
+            <div><dt>Function</dt><dd data-computer="function"></dd></div>
+            <div hidden><dt>Logic group</dt><dd data-computer="section"></dd></div>
+            <div><dt>Tracks</dt><dd data-computer="tracks"></dd></div>
+            <div><dt>State</dt><dd data-computer="state"></dd></div>
+          </dl>
+        </section>
+      </aside>
+    </div>
+    <noscript><p>Enable JavaScript to run the circuit simulator.</p></noscript>
+  </main>
+</body>
+</html>

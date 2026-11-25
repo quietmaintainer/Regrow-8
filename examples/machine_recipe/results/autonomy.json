@@ -1,0 +1,8000 @@
+{
+  "pads": {
+    "contactsPerPin": 4,
+    "original": {
+      "trials": 42,
+      "single": 38,
+      "spread": 42
+    },
+    "heldOut": {
+      "trials": 12,
+      "single": 9,
+      "spread": 9
+    },
+    "original15": {
+      "trials": 6,
+      "single": 5,
+      "spread": 6
+    },
+    "original20": {
+      "trials": 6,
+      "single": 3,
+      "spread": 6
+    },
+    "originalTrials": [
+      {
+        "seed": 20261125,
+        "permanent": false,
+        "shape": "crater",
+        "percent": 25,
+        "sites": 1017,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": false,
+        "shape": "crater",
+        "percent": 50,
+        "sites": 2035,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": false,
+        "shape": "crater",
+        "percent": 75,
+        "sites": 3052,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": false,
+        "shape": "scatter",
+        "percent": 25,
+        "sites": 1017,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": false,
+        "shape": "scatter",
+        "percent": 50,
+        "sites": 2035,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": false,
+        "shape": "scatter",
+        "percent": 75,
+        "sites": 3052,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 5,
+        "sites": 203,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 10,
+        "sites": 407,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 267,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 267,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 279,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 279,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 285,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 285,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 5,
+        "sites": 203,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 265,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 265,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 10,
+        "sites": 407,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 274,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 274,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 286,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 286,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261125,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": false,
+          "error": "unreachable boundary pin: i0",
+          "deadNeighbors": [
+            320
+          ]
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 308,
+          "backups": [
+            {
+              "name": "i0",
+              "site": 2304
+            },
+            {
+              "name": "i7",
+              "site": 3456
+            }
+          ]
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": false,
+        "shape": "crater",
+        "percent": 25,
+        "sites": 1017,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": false,
+        "shape": "crater",
+        "percent": 50,
+        "sites": 2035,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": false,
+        "shape": "crater",
+        "percent": 75,
+        "sites": 3052,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": false,
+        "shape": "scatter",
+        "percent": 25,
+        "sites": 1017,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": false,
+        "shape": "scatter",
+        "percent": 50,
+        "sites": 2035,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": false,
+        "shape": "scatter",
+        "percent": 75,
+        "sites": 3052,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 5,
+        "sites": 203,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 10,
+        "sites": 407,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 267,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 267,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 277,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 277,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 283,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 283,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 5,
+        "sites": 203,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 261,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 261,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 10,
+        "sites": 407,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 269,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 269,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 295,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 295,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261126,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": false,
+          "error": "unreachable boundary pin: addr1",
+          "deadNeighbors": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 301,
+          "backups": [
+            {
+              "name": "addr1",
+              "site": 1727
+            }
+          ]
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": false,
+        "shape": "crater",
+        "percent": 25,
+        "sites": 1017,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": false,
+        "shape": "crater",
+        "percent": 50,
+        "sites": 2035,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": false,
+        "shape": "crater",
+        "percent": 75,
+        "sites": 3052,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": false,
+        "shape": "scatter",
+        "percent": 25,
+        "sites": 1017,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": false,
+        "shape": "scatter",
+        "percent": 50,
+        "sites": 2035,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": false,
+        "shape": "scatter",
+        "percent": 75,
+        "sites": 3052,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 5,
+        "sites": 203,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 10,
+        "sites": 407,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 265,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 265,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 277,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 277,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": true,
+        "shape": "crater",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 283,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 283,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 5,
+        "sites": 203,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 263,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 10,
+        "sites": 407,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 273,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 273,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": false,
+          "error": "unreachable boundary pin: i4",
+          "deadNeighbors": [
+            1537,
+            1472,
+            1600
+          ]
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 277,
+          "backups": [
+            {
+              "name": "i4",
+              "site": 2560
+            }
+          ]
+        }
+      },
+      {
+        "seed": 20261127,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": false,
+          "error": "unreachable boundary pin: i4",
+          "deadNeighbors": [
+            1537,
+            1472,
+            1600
+          ]
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 297,
+          "backups": [
+            {
+              "name": "i4",
+              "site": 2560
+            }
+          ]
+        }
+      }
+    ],
+    "heldOutTrials": [
+      {
+        "seed": 20261128,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 285,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 285,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261128,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": false,
+          "error": "no free track from 644 to 3679:0"
+        },
+        "spread": {
+          "pass": false,
+          "error": "no free track from 644 to 3679:0"
+        }
+      },
+      {
+        "seed": 20261129,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 281,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 281,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261129,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 302,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 302,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261130,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 279,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 279,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261130,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": false,
+          "error": "no free track from 597 to 1477:1"
+        },
+        "spread": {
+          "pass": false,
+          "error": "no free track from 597 to 1477:1"
+        }
+      },
+      {
+        "seed": 20261131,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 283,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 283,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261131,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 320,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 320,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261132,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 275,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 275,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261132,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": false,
+          "error": "no free track from 556 to 506:1"
+        },
+        "spread": {
+          "pass": false,
+          "error": "no free track from 556 to 506:1"
+        }
+      },
+      {
+        "seed": 20261133,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 15,
+        "sites": 610,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 310,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 310,
+          "backups": []
+        }
+      },
+      {
+        "seed": 20261133,
+        "permanent": true,
+        "shape": "scatter",
+        "percent": 20,
+        "sites": 814,
+        "single": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 339,
+          "backups": []
+        },
+        "spread": {
+          "pass": true,
+          "vectors": 2097152,
+          "criticalTicks": 339,
+          "backups": []
+        }
+      }
+    ],
+    "allContactsCutControl": "unreachable boundary pin: i0"
+  },
+  "live": {
+    "bits": 10,
+    "replicas": 30,
+    "cleanVectors": 2097152,
+    "cleanTicks": 270,
+    "minReplicaSpacing": 5,
+    "maxRepairedTicks": 270,
+    "changedValueAtCommit": 27,
+    "highValueAtCommit": 33,
+    "repairedVectors": 2097152,
+    "singleRegisterControl": {
+      "faultEdge": 6,
+      "erased": 1542,
+      "error": "data0: actual 0x0, expected 0xffffffff"
+    },
+    "trials": [
+      {
+        "bit": "reg0.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 1730,
+        "newTile": 1666,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg0.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 1730,
+        "newTile": 1666,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270,
+        "repairedVectors": 2097152
+      },
+      {
+        "bit": "reg0.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 1926,
+        "newTile": 1862,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg0.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 1926,
+        "newTile": 1862,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg0.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 1738,
+        "newTile": 1674,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg0.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 1738,
+        "newTile": 1674,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg1.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2754,
+        "newTile": 2690,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg1.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2754,
+        "newTile": 2690,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg1.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2950,
+        "newTile": 2886,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg1.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2950,
+        "newTile": 2886,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg1.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2762,
+        "newTile": 2698,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg1.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2762,
+        "newTile": 2698,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg2.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2767,
+        "newTile": 2703,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg2.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2767,
+        "newTile": 2703,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg2.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2963,
+        "newTile": 2899,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg2.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2963,
+        "newTile": 2899,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg2.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2775,
+        "newTile": 2711,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg2.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2775,
+        "newTile": 2711,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg3.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2780,
+        "newTile": 2716,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg3.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2780,
+        "newTile": 2716,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg3.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2976,
+        "newTile": 2912,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg3.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2976,
+        "newTile": 2912,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg3.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2788,
+        "newTile": 2724,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg3.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2788,
+        "newTile": 2724,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg4.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2792,
+        "newTile": 2728,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg4.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2792,
+        "newTile": 2728,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg4.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2988,
+        "newTile": 2924,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg4.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2988,
+        "newTile": 2924,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg4.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2800,
+        "newTile": 2736,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg4.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2800,
+        "newTile": 2736,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg5.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2805,
+        "newTile": 2741,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg5.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2805,
+        "newTile": 2741,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg5.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 3001,
+        "newTile": 2937,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg5.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 3001,
+        "newTile": 2937,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg5.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 2813,
+        "newTile": 2749,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg5.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 2813,
+        "newTile": 2749,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg6.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 3829,
+        "newTile": 3765,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg6.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 3829,
+        "newTile": 3765,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg6.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 4025,
+        "newTile": 3961,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg6.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 4025,
+        "newTile": 3961,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg6.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 3837,
+        "newTile": 3773,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg6.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 3837,
+        "newTile": 3773,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg7.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 3816,
+        "newTile": 3752,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 269
+      },
+      {
+        "bit": "reg7.q",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 3816,
+        "newTile": 3752,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 269
+      },
+      {
+        "bit": "reg7.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 4012,
+        "newTile": 3948,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg7.q",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 4012,
+        "newTile": 3948,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg7.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 3824,
+        "newTile": 3760,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "reg7.q",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 3824,
+        "newTile": 3760,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q0",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 3804,
+        "newTile": 3805,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q0",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 3804,
+        "newTile": 3805,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q0",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 4000,
+        "newTile": 3999,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q0",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 4000,
+        "newTile": 3999,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q0",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 3812,
+        "newTile": 3811,
+        "damagedValue": 1,
+        "captured": 0,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q0",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 3812,
+        "newTile": 3811,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 6,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q1",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 3740,
+        "newTile": 3805,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 5,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q1",
+        "copy": 0,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 3740,
+        "newTile": 3805,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 5,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q1",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 3936,
+        "newTile": 3999,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q1",
+        "copy": 1,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 3936,
+        "newTile": 3999,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 7,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q1",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 9,
+        "edgesWhileDamaged": 3,
+        "cycles": 32,
+        "oldTile": 3748,
+        "newTile": 3811,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 5,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      },
+      {
+        "bit": "pc.q1",
+        "copy": 2,
+        "atEdge": 6,
+        "repairEdge": 10,
+        "edgesWhileDamaged": 4,
+        "cycles": 32,
+        "oldTile": 3748,
+        "newTile": 3811,
+        "damagedValue": 1,
+        "captured": 1,
+        "final": {
+          "edge": 32,
+          "pc": 1,
+          "accumulator": 0,
+          "ram": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "stores": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            8,
+            3,
+            0
+          ],
+          [
+            12,
+            3,
+            0
+          ],
+          [
+            16,
+            3,
+            0
+          ],
+          [
+            20,
+            3,
+            0
+          ],
+          [
+            24,
+            3,
+            0
+          ],
+          [
+            28,
+            3,
+            0
+          ]
+        ],
+        "replicaSpacing": 5,
+        "beforeTicks": 270,
+        "afterTicks": 270
+      }
+    ]
+  },
+  "peers": {
+    "sharedFabric": 64,
+    "criticalTicks": 126,
+    "archiveBytes": [
+      3911,
+      3727
+    ],
+    "memoryTiles": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        33,
+        34,
+        35
+      ]
+    ],
+    "trials": [
+      {
+        "cycles": 36,
+        "order": [
+          "A",
+          "B"
+        ],
+        "events": [
+          {
+            "edge": 5,
+            "event": "fault",
+            "target": "A",
+            "sites": [
+              1675
+            ]
+          },
+          {
+            "edge": 6,
+            "event": "read",
+            "owner": "B",
+            "target": "A",
+            "recoveredFromParity": 1
+          },
+          {
+            "edge": 7,
+            "event": "candidate",
+            "owner": "B",
+            "target": "A",
+            "address": 0,
+            "usable": true
+          },
+          {
+            "edge": 8,
+            "event": "program",
+            "owner": "B",
+            "target": "A",
+            "address": 0,
+            "captured": 0,
+            "fieldWrites": 15,
+            "sitesWritten": 11,
+            "criticalTicks": 126,
+            "site": 1611
+          },
+          {
+            "edge": 9,
+            "event": "verified",
+            "owner": "B",
+            "target": "A"
+          },
+          {
+            "edge": 21,
+            "event": "fault",
+            "target": "B",
+            "sites": [
+              1705
+            ]
+          },
+          {
+            "edge": 22,
+            "event": "read",
+            "owner": "A",
+            "target": "B",
+            "recoveredFromParity": 1
+          },
+          {
+            "edge": 23,
+            "event": "candidate",
+            "owner": "A",
+            "target": "B",
+            "address": 0,
+            "usable": false
+          },
+          {
+            "edge": 24,
+            "event": "candidate",
+            "owner": "A",
+            "target": "B",
+            "address": 1,
+            "usable": false
+          },
+          {
+            "edge": 25,
+            "event": "candidate",
+            "owner": "A",
+            "target": "B",
+            "address": 2,
+            "usable": true
+          },
+          {
+            "edge": 26,
+            "event": "program",
+            "owner": "A",
+            "target": "B",
+            "address": 2,
+            "captured": 0,
+            "fieldWrites": 15,
+            "sitesWritten": 11,
+            "criticalTicks": 126,
+            "site": 1641
+          },
+          {
+            "edge": 27,
+            "event": "verified",
+            "owner": "A",
+            "target": "B"
+          }
+        ],
+        "final": [
+          1,
+          1
+        ],
+        "control": false,
+        "blockSpare": false
+      },
+      {
+        "cycles": 36,
+        "order": [
+          "B",
+          "A"
+        ],
+        "events": [
+          {
+            "edge": 5,
+            "event": "fault",
+            "target": "B",
+            "sites": [
+              1705
+            ]
+          },
+          {
+            "edge": 6,
+            "event": "read",
+            "owner": "A",
+            "target": "B",
+            "recoveredFromParity": 1
+          },
+          {
+            "edge": 7,
+            "event": "candidate",
+            "owner": "A",
+            "target": "B",
+            "address": 0,
+            "usable": true
+          },
+          {
+            "edge": 8,
+            "event": "program",
+            "owner": "A",
+            "target": "B",
+            "address": 0,
+            "captured": 0,
+            "fieldWrites": 15,
+            "sitesWritten": 11,
+            "criticalTicks": 126,
+            "site": 1641
+          },
+          {
+            "edge": 9,
+            "event": "verified",
+            "owner": "A",
+            "target": "B"
+          },
+          {
+            "edge": 21,
+            "event": "fault",
+            "target": "A",
+            "sites": [
+              1675
+            ]
+          },
+          {
+            "edge": 22,
+            "event": "read",
+            "owner": "B",
+            "target": "A",
+            "recoveredFromParity": 1
+          },
+          {
+            "edge": 23,
+            "event": "candidate",
+            "owner": "B",
+            "target": "A",
+            "address": 0,
+            "usable": false
+          },
+          {
+            "edge": 24,
+            "event": "candidate",
+            "owner": "B",
+            "target": "A",
+            "address": 1,
+            "usable": false
+          },
+          {
+            "edge": 25,
+            "event": "candidate",
+            "owner": "B",
+            "target": "A",
+            "address": 2,
+            "usable": true
+          },
+          {
+            "edge": 26,
+            "event": "program",
+            "owner": "B",
+            "target": "A",
+            "address": 2,
+            "captured": 0,
+            "fieldWrites": 15,
+            "sitesWritten": 11,
+            "criticalTicks": 126,
+            "site": 1611
+          },
+          {
+            "edge": 27,
+            "event": "verified",
+            "owner": "B",
+            "target": "A"
+          }
+        ],
+        "final": [
+          1,
+          1
+        ],
+        "control": false,
+        "blockSpare": false
+      },
+      {
+        "cycles": 36,
+        "order": [
+          "A",
+          "B"
+        ],
+        "events": [
+          {
+            "edge": 5,
+            "event": "fault",
+            "target": "A",
+            "sites": [
+              1675,
+              1611
+            ]
+          },
+          {
+            "edge": 6,
+            "event": "read",
+            "owner": "B",
+            "target": "A",
+            "recoveredFromParity": 1
+          },
+          {
+            "edge": 7,
+            "event": "candidate",
+            "owner": "B",
+            "target": "A",
+            "address": 0,
+            "usable": false
+          },
+          {
+            "edge": 8,
+            "event": "candidate",
+            "owner": "B",
+            "target": "A",
+            "address": 1,
+            "usable": true
+          },
+          {
+            "edge": 9,
+            "event": "program",
+            "owner": "B",
+            "target": "A",
+            "address": 1,
+            "captured": 1,
+            "fieldWrites": 18,
+            "sitesWritten": 14,
+            "criticalTicks": 126,
+            "site": 1676
+          },
+          {
+            "edge": 10,
+            "event": "verified",
+            "owner": "B",
+            "target": "A"
+          },
+          {
+            "edge": 21,
+            "event": "fault",
+            "target": "B",
+            "sites": [
+              1705
+            ]
+          },
+          {
+            "edge": 22,
+            "event": "read",
+            "owner": "A",
+            "target": "B",
+            "recoveredFromParity": 1
+          },
+          {
+            "edge": 23,
+            "event": "candidate",
+            "owner": "A",
+            "target": "B",
+            "address": 0,
+            "usable": false
+          },
+          {
+            "edge": 24,
+            "event": "candidate",
+            "owner": "A",
+            "target": "B",
+            "address": 1,
+            "usable": false
+          },
+          {
+            "edge": 25,
+            "event": "candidate",
+            "owner": "A",
+            "target": "B",
+            "address": 2,
+            "usable": false
+          },
+          {
+            "edge": 26,
+            "event": "candidate",
+            "owner": "A",
+            "target": "B",
+            "address": 3,
+            "usable": false
+          },
+          {
+            "edge": 27,
+            "event": "candidate",
+            "owner": "A",
+            "target": "B",
+            "address": 4,
+            "usable": true
+          },
+          {
+            "edge": 28,
+            "event": "program",
+            "owner": "A",
+            "target": "B",
+            "address": 4,
+            "captured": 0,
+            "fieldWrites": 15,
+            "sitesWritten": 11,
+            "criticalTicks": 126,
+            "site": 1641
+          },
+          {
+            "edge": 29,
+            "event": "verified",
+            "owner": "A",
+            "target": "B"
+          }
+        ],
+        "final": [
+          1,
+          1
+        ],
+        "control": false,
+        "blockSpare": true
+      }
+    ],
+    "control": {
+      "cycles": 36,
+      "order": [
+        "A",
+        "B"
+      ],
+      "events": [
+        {
+          "edge": 5,
+          "event": "fault",
+          "target": "A",
+          "sites": [
+            1675
+          ]
+        }
+      ],
+      "final": [
+        1,
+        1
+      ],
+      "control": true,
+      "blockSpare": false
+    }
+  },
+  "wiring": {
+    "contactsPerPin": 4,
+    "clean": {
+      "prior": {
+        "trackCells": 3536,
+        "criticalTicks": 263,
+        "vectors": 2097152
+      },
+      "revised": {
+        "trackCells": 2137,
+        "criticalTicks": 156,
+        "vectors": 2097152
+      }
+    },
+    "original": {
+      "trials": 42,
+      "prior": 42,
+      "revised": 42,
+      "cases": [
+        {
+          "seed": 20261125,
+          "permanent": false,
+          "shape": "crater",
+          "percent": 25,
+          "sites": 1017,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": false,
+          "shape": "crater",
+          "percent": 50,
+          "sites": 2035,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": false,
+          "shape": "crater",
+          "percent": 75,
+          "sites": 3052,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": false,
+          "shape": "scatter",
+          "percent": 25,
+          "sites": 1017,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": false,
+          "shape": "scatter",
+          "percent": 50,
+          "sites": 2035,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": false,
+          "shape": "scatter",
+          "percent": 75,
+          "sites": 3052,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 5,
+          "sites": 203,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 175,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 10,
+          "sites": 407,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 267,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 200,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 279,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 207,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 285,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 236,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 5,
+          "sites": 203,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 265,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 166,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 10,
+          "sites": 407,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 274,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 186,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 286,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 190,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261125,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 308,
+            "backups": [
+              {
+                "name": "i0",
+                "site": 2304
+              },
+              {
+                "name": "i7",
+                "site": 3456
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 212,
+            "backups": [
+              {
+                "name": "i0",
+                "site": 2304
+              },
+              {
+                "name": "i7",
+                "site": 3456
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": false,
+          "shape": "crater",
+          "percent": 25,
+          "sites": 1017,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": false,
+          "shape": "crater",
+          "percent": 50,
+          "sites": 2035,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": false,
+          "shape": "crater",
+          "percent": 75,
+          "sites": 3052,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": false,
+          "shape": "scatter",
+          "percent": 25,
+          "sites": 1017,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": false,
+          "shape": "scatter",
+          "percent": 50,
+          "sites": 2035,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": false,
+          "shape": "scatter",
+          "percent": 75,
+          "sites": 3052,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 5,
+          "sites": 203,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 174,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 10,
+          "sites": 407,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 267,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 193,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 277,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 211,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 283,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 264,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 5,
+          "sites": 203,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 261,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 166,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 10,
+          "sites": 407,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 269,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 184,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 295,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 194,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261126,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 301,
+            "backups": [
+              {
+                "name": "addr1",
+                "site": 1727
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 205,
+            "backups": [
+              {
+                "name": "addr1",
+                "site": 1727
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": false,
+          "shape": "crater",
+          "percent": 25,
+          "sites": 1017,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": false,
+          "shape": "crater",
+          "percent": 50,
+          "sites": 2035,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": false,
+          "shape": "crater",
+          "percent": 75,
+          "sites": 3052,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": false,
+          "shape": "scatter",
+          "percent": 25,
+          "sites": 1017,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": false,
+          "shape": "scatter",
+          "percent": 50,
+          "sites": 2035,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": false,
+          "shape": "scatter",
+          "percent": 75,
+          "sites": 3052,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 156,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 5,
+          "sites": 203,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 176,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 10,
+          "sites": 407,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 265,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 207,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 277,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 238,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": true,
+          "shape": "crater",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 283,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 232,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 5,
+          "sites": 203,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 263,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 172,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 10,
+          "sites": 407,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 273,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 196,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 277,
+            "backups": [
+              {
+                "name": "i4",
+                "site": 2560
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 208,
+            "backups": [
+              {
+                "name": "i4",
+                "site": 2560
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261127,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 297,
+            "backups": [
+              {
+                "name": "i4",
+                "site": 2560
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 216,
+            "backups": [
+              {
+                "name": "i4",
+                "site": 2560
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "previousHeldOut": {
+      "trials": 12,
+      "prior": 9,
+      "revised": 12,
+      "cases": [
+        {
+          "seed": 20261128,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 285,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 170,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261128,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 644 to 3679:0"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 188,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261129,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 281,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 213,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261129,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 302,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 249,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261130,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 279,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 170,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261130,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 597 to 1477:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 196,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261131,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 283,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 220,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261131,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 320,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 240,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261132,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 275,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 190,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261132,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 556 to 506:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 209,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261133,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 15,
+          "sites": 610,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 310,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 191,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261133,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 339,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 195,
+            "backups": []
+          }
+        }
+      ]
+    },
+    "development": {
+      "trials": 36,
+      "prior": 27,
+      "revised": 35,
+      "cases": [
+        {
+          "seed": 20261134,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 297,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 203,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261135,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 319,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 212,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261136,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 311,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 208,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261137,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 303,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 206,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261138,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 309,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 187,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261139,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 581 to 3554:0"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 194,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261140,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 256 to 3616:2"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 214,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261141,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 305,
+            "backups": [
+              {
+                "name": "data1",
+                "site": 1919
+              },
+              {
+                "name": "data4",
+                "site": 2815
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 186,
+            "backups": [
+              {
+                "name": "data1",
+                "site": 1919
+              },
+              {
+                "name": "data4",
+                "site": 2815
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261142,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 581 to 3554:0"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 195,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261143,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 287,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 186,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261144,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 1621 to 3499:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 194,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261145,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 299,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 198,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261146,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 316,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 204,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261147,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 293,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 194,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261148,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 311,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 185,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261149,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 299,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 231,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261150,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 326,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 196,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261151,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 299,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 202,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261152,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 646 to 3554:0"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 192,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261153,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 312,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 202,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261154,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 286,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 203,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261155,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 291,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 226,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261156,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 287,
+            "backups": [
+              {
+                "name": "i1",
+                "site": 1600
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 210,
+            "backups": [
+              {
+                "name": "i1",
+                "site": 1600
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261157,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 609 to 2437:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 202,
+            "backups": [
+              {
+                "name": "data4",
+                "site": 2815
+              },
+              {
+                "name": "addr1",
+                "site": 703
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261158,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 315,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 190,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261159,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 292,
+            "backups": [
+              {
+                "name": "data6",
+                "site": 3391
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 196,
+            "backups": [
+              {
+                "name": "data6",
+                "site": 3391
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261160,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 299,
+            "backups": [
+              {
+                "name": "data5",
+                "site": 3071
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 230,
+            "backups": [
+              {
+                "name": "data5",
+                "site": 3071
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261161,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 285,
+            "backups": [
+              {
+                "name": "i5",
+                "site": 2880
+              },
+              {
+                "name": "i6",
+                "site": 3136
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 216,
+            "backups": [
+              {
+                "name": "i5",
+                "site": 2880
+              },
+              {
+                "name": "i6",
+                "site": 3136
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261162,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 610 to 2501:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 250,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261163,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 317,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 224,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261164,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 293,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 189,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261165,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 621 to 2450:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 187,
+            "backups": [
+              {
+                "name": "data2",
+                "site": 2239
+              },
+              {
+                "name": "data7",
+                "site": 3647
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261166,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "unreachable boundary pin: i0",
+            "deadNeighbors": [
+              192
+            ]
+          },
+          "revised": {
+            "pass": false,
+            "error": "unreachable boundary pin: i0",
+            "deadNeighbors": [
+              192
+            ]
+          }
+        },
+        {
+          "seed": 20261167,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 333,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 194,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261168,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 284,
+            "backups": [
+              {
+                "name": "data1",
+                "site": 1919
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 228,
+            "backups": [
+              {
+                "name": "data1",
+                "site": 1919
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261169,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 295,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 214,
+            "backups": []
+          }
+        }
+      ]
+    },
+    "fresh": {
+      "trials": 24,
+      "prior": 16,
+      "revised": 24,
+      "cases": [
+        {
+          "seed": 20261170,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 309,
+            "backups": [
+              {
+                "name": "rst",
+                "site": 640
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 188,
+            "backups": [
+              {
+                "name": "rst",
+                "site": 640
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261171,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 1478 to 1541:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 178,
+            "backups": [
+              {
+                "name": "data7",
+                "site": 3647
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261172,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 581 to 3554:0"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 203,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261173,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 316,
+            "backups": [
+              {
+                "name": "addr1",
+                "site": 703
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 172,
+            "backups": [
+              {
+                "name": "addr1",
+                "site": 703
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261174,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 307,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 202,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261175,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 1645 to 2552:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 218,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261176,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 311,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 195,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261177,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 307,
+            "backups": [
+              {
+                "name": "rst",
+                "site": 2688
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 188,
+            "backups": [
+              {
+                "name": "rst",
+                "site": 2688
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261178,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 312,
+            "backups": [
+              {
+                "name": "i0",
+                "site": 1280
+              },
+              {
+                "name": "data6",
+                "site": 3391
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 214,
+            "backups": [
+              {
+                "name": "i0",
+                "site": 1280
+              },
+              {
+                "name": "data6",
+                "site": 3391
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261179,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 328,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 222,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261180,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 621 to 2514:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 200,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261181,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 329,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 200,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261182,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 341,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 244,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261183,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 1620 to 3563:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 194,
+            "backups": [
+              {
+                "name": "i3",
+                "site": 2240
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261184,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 295,
+            "backups": [
+              {
+                "name": "addr0",
+                "site": 1151
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 182,
+            "backups": [
+              {
+                "name": "addr0",
+                "site": 1151
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261185,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 3616 to 3745:1"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 223,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261186,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 309,
+            "backups": [
+              {
+                "name": "i6",
+                "site": 3136
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 224,
+            "backups": [
+              {
+                "name": "i6",
+                "site": 3136
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261187,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 287,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 197,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261188,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 584 to 1478:0"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 181,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261189,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 309,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 202,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261190,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": false,
+            "error": "no free track from 1541 to 1543:0"
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 220,
+            "backups": [
+              {
+                "name": "pc1",
+                "site": 447
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261191,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 317,
+            "backups": [
+              {
+                "name": "i6",
+                "site": 64
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 186,
+            "backups": [
+              {
+                "name": "i6",
+                "site": 64
+              }
+            ]
+          }
+        },
+        {
+          "seed": 20261192,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 301,
+            "backups": []
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 193,
+            "backups": []
+          }
+        },
+        {
+          "seed": 20261193,
+          "permanent": true,
+          "shape": "scatter",
+          "percent": 20,
+          "sites": 814,
+          "prior": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 302,
+            "backups": [
+              {
+                "name": "data5",
+                "site": 3071
+              }
+            ]
+          },
+          "revised": {
+            "pass": true,
+            "vectors": 2097152,
+            "criticalTicks": 201,
+            "backups": [
+              {
+                "name": "data5",
+                "site": 3071
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,306 @@
+# Regrow-8 8-bit CPU with triplicated registers
+inputs i0 i1 i2 i3 i4 i5 i6 i7 op0 op1 op2 rst
+
+group decode
+  gate decode.not0 NOT op0
+  gate decode.not1 NOT op1
+  gate decode.not2 NOT op2
+  gate decode.pair0 AND decode.not0 decode.not1
+  gate decode.d0 AND decode.pair0 decode.not2
+  gate decode.pair1 AND op0 decode.not1
+  gate decode.d1 AND decode.pair1 decode.not2
+  gate decode.pair2 AND decode.not0 op1
+  gate decode.d2 AND decode.pair2 decode.not2
+  gate decode.pair3 AND op0 op1
+  gate decode.d3 AND decode.pair3 decode.not2
+  gate decode.pair4 AND decode.not0 decode.not1
+  gate decode.d4 AND decode.pair4 op2
+  gate decode.pair5 AND op0 decode.not1
+  gate decode.d5 AND decode.pair5 op2
+  gate decode.pair6 AND decode.not0 op1
+  gate decode.d6 AND decode.pair6 op2
+  gate decode.pair7 AND op0 op1
+  gate decode.d7 AND decode.pair7 op2
+  gate decode.write NOT op2
+  gate decode.run NOT rst
+  gate decode.store AND decode.d4 decode.run
+
+group bit0
+  gate bit0.bx XOR i0 decode.d2
+  gate bit0.propagate XOR reg0.q bit0.bx
+  gate bit0.sum XOR bit0.propagate decode.d2
+  gate bit0.generate AND reg0.q bit0.bx
+  gate bit0.carry MUX bit0.propagate bit0.generate decode.d2
+  gate bit0.xor XOR reg0.q i0
+  gate bit0.and AND reg0.q i0
+  gate bit0.logic MUX decode.d2 bit0.xor bit0.and
+  gate bit0.result MUX decode.d3 bit0.sum bit0.logic
+
+group bit1
+  gate bit1.bx XOR i1 decode.d2
+  gate bit1.propagate XOR reg1.q bit1.bx
+  gate bit1.sum XOR bit1.propagate bit0.carry
+  gate bit1.generate AND reg1.q bit1.bx
+  gate bit1.carry MUX bit1.propagate bit1.generate bit0.carry
+  gate bit1.xor XOR reg1.q i1
+  gate bit1.and AND reg1.q i1
+  gate bit1.logic MUX decode.d2 bit1.xor bit1.and
+  gate bit1.result MUX decode.d3 bit1.sum bit1.logic
+
+group bit2
+  gate bit2.bx XOR i2 decode.d2
+  gate bit2.propagate XOR reg2.q bit2.bx
+  gate bit2.sum XOR bit2.propagate bit1.carry
+  gate bit2.generate AND reg2.q bit2.bx
+  gate bit2.carry MUX bit2.propagate bit2.generate bit1.carry
+  gate bit2.xor XOR reg2.q i2
+  gate bit2.and AND reg2.q i2
+  gate bit2.logic MUX decode.d2 bit2.xor bit2.and
+  gate bit2.result MUX decode.d3 bit2.sum bit2.logic
+
+group bit3
+  gate bit3.bx XOR i3 decode.d2
+  gate bit3.propagate XOR reg3.q bit3.bx
+  gate bit3.sum XOR bit3.propagate bit2.carry
+  gate bit3.generate AND reg3.q bit3.bx
+  gate bit3.carry MUX bit3.propagate bit3.generate bit2.carry
+  gate bit3.xor XOR reg3.q i3
+  gate bit3.and AND reg3.q i3
+  gate bit3.logic MUX decode.d2 bit3.xor bit3.and
+  gate bit3.result MUX decode.d3 bit3.sum bit3.logic
+
+group bit4
+  gate bit4.bx XOR i4 decode.d2
+  gate bit4.propagate XOR reg4.q bit4.bx
+  gate bit4.sum XOR bit4.propagate bit3.carry
+  gate bit4.generate AND reg4.q bit4.bx
+  gate bit4.carry MUX bit4.propagate bit4.generate bit3.carry
+  gate bit4.xor XOR reg4.q i4
+  gate bit4.and AND reg4.q i4
+  gate bit4.logic MUX decode.d2 bit4.xor bit4.and
+  gate bit4.result MUX decode.d3 bit4.sum bit4.logic
+
+group bit5
+  gate bit5.bx XOR i5 decode.d2
+  gate bit5.propagate XOR reg5.q bit5.bx
+  gate bit5.sum XOR bit5.propagate bit4.carry
+  gate bit5.generate AND reg5.q bit5.bx
+  gate bit5.carry MUX bit5.propagate bit5.generate bit4.carry
+  gate bit5.xor XOR reg5.q i5
+  gate bit5.and AND reg5.q i5
+  gate bit5.logic MUX decode.d2 bit5.xor bit5.and
+  gate bit5.result MUX decode.d3 bit5.sum bit5.logic
+
+group bit6
+  gate bit6.bx XOR i6 decode.d2
+  gate bit6.propagate XOR reg6.q bit6.bx
+  gate bit6.sum XOR bit6.propagate bit5.carry
+  gate bit6.generate AND reg6.q bit6.bx
+  gate bit6.carry MUX bit6.propagate bit6.generate bit5.carry
+  gate bit6.xor XOR reg6.q i6
+  gate bit6.and AND reg6.q i6
+  gate bit6.logic MUX decode.d2 bit6.xor bit6.and
+  gate bit6.result MUX decode.d3 bit6.sum bit6.logic
+
+group bit7
+  gate bit7.bx XOR i7 decode.d2
+  gate bit7.propagate XOR reg7.q bit7.bx
+  gate bit7.sum XOR bit7.propagate bit6.carry
+  gate bit7.generate AND reg7.q bit7.bx
+  gate bit7.carry MUX bit7.propagate bit7.generate bit6.carry
+  gate bit7.xor XOR reg7.q i7
+  gate bit7.and AND reg7.q i7
+  gate bit7.logic MUX decode.d2 bit7.xor bit7.and
+  gate bit7.result MUX decode.d3 bit7.sum bit7.logic
+
+group reg0
+  gate reg0.load MUX decode.d0 bit0.result i0
+  gate reg0.enable MUX decode.write reg0.q reg0.load
+  gate reg0.d AND decode.run reg0.enable
+  gate reg0.q.both AND reg0.q.copy1 reg0.q.copy2
+  gate reg0.q.either OR reg0.q.copy1 reg0.q.copy2
+  gate reg0.q MUX reg0.q.copy0 reg0.q.both reg0.q.either
+
+group reg1
+  gate reg1.load MUX decode.d0 bit1.result i1
+  gate reg1.enable MUX decode.write reg1.q reg1.load
+  gate reg1.d AND decode.run reg1.enable
+  gate reg1.q.both AND reg1.q.copy1 reg1.q.copy2
+  gate reg1.q.either OR reg1.q.copy1 reg1.q.copy2
+  gate reg1.q MUX reg1.q.copy0 reg1.q.both reg1.q.either
+
+group reg2
+  gate reg2.load MUX decode.d0 bit2.result i2
+  gate reg2.enable MUX decode.write reg2.q reg2.load
+  gate reg2.d AND decode.run reg2.enable
+  gate reg2.q.both AND reg2.q.copy1 reg2.q.copy2
+  gate reg2.q.either OR reg2.q.copy1 reg2.q.copy2
+  gate reg2.q MUX reg2.q.copy0 reg2.q.both reg2.q.either
+
+group reg3
+  gate reg3.load MUX decode.d0 bit3.result i3
+  gate reg3.enable MUX decode.write reg3.q reg3.load
+  gate reg3.d AND decode.run reg3.enable
+  gate reg3.q.both AND reg3.q.copy1 reg3.q.copy2
+  gate reg3.q.either OR reg3.q.copy1 reg3.q.copy2
+  gate reg3.q MUX reg3.q.copy0 reg3.q.both reg3.q.either
+
+group reg4
+  gate reg4.load MUX decode.d0 bit4.result i4
+  gate reg4.enable MUX decode.write reg4.q reg4.load
+  gate reg4.d AND decode.run reg4.enable
+  gate reg4.q.both AND reg4.q.copy1 reg4.q.copy2
+  gate reg4.q.either OR reg4.q.copy1 reg4.q.copy2
+  gate reg4.q MUX reg4.q.copy0 reg4.q.both reg4.q.either
+
+group reg5
+  gate reg5.load MUX decode.d0 bit5.result i5
+  gate reg5.enable MUX decode.write reg5.q reg5.load
+  gate reg5.d AND decode.run reg5.enable
+  gate reg5.q.both AND reg5.q.copy1 reg5.q.copy2
+  gate reg5.q.either OR reg5.q.copy1 reg5.q.copy2
+  gate reg5.q MUX reg5.q.copy0 reg5.q.both reg5.q.either
+
+group reg6
+  gate reg6.load MUX decode.d0 bit6.result i6
+  gate reg6.enable MUX decode.write reg6.q reg6.load
+  gate reg6.d AND decode.run reg6.enable
+  gate reg6.q.both AND reg6.q.copy1 reg6.q.copy2
+  gate reg6.q.either OR reg6.q.copy1 reg6.q.copy2
+  gate reg6.q MUX reg6.q.copy0 reg6.q.both reg6.q.either
+
+group reg7
+  gate reg7.load MUX decode.d0 bit7.result i7
+  gate reg7.enable MUX decode.write reg7.q reg7.load
+  gate reg7.d AND decode.run reg7.enable
+  gate reg7.q.both AND reg7.q.copy1 reg7.q.copy2
+  gate reg7.q.either OR reg7.q.copy1 reg7.q.copy2
+  gate reg7.q MUX reg7.q.copy0 reg7.q.both reg7.q.either
+
+group pc
+  gate pc.or0 OR reg0.q reg1.q
+  gate pc.or1 OR reg2.q reg3.q
+  gate pc.or2 OR reg4.q reg5.q
+  gate pc.or3 OR reg6.q reg7.q
+  gate pc.or4 OR pc.or0 pc.or1
+  gate pc.or5 OR pc.or2 pc.or3
+  gate pc.or6 OR pc.or4 pc.or5
+  gate pc.zero NOT pc.or6
+  gate pc.bz AND decode.d5 pc.zero
+  gate pc.take OR decode.d6 pc.bz
+  gate pc.inc0 NOT pc.q0
+  gate pc.inc1 XOR pc.q0 pc.q1
+  gate pc.v0 MUX pc.take pc.inc0 i0
+  gate pc.d0 AND decode.run pc.v0
+  gate pc.q0.both AND pc.q0.copy1 pc.q0.copy2
+  gate pc.q0.either OR pc.q0.copy1 pc.q0.copy2
+  gate pc.q0 MUX pc.q0.copy0 pc.q0.both pc.q0.either
+  gate pc.v1 MUX pc.take pc.inc1 i1
+  gate pc.d1 AND decode.run pc.v1
+  gate pc.q1.both AND pc.q1.copy1 pc.q1.copy2
+  gate pc.q1.either OR pc.q1.copy1 pc.q1.copy2
+  gate pc.q1 MUX pc.q1.copy0 pc.q1.both pc.q1.either
+
+group reg0.q.copy0
+  gate reg0.q.copy0 DFF reg0.d
+
+group reg0.q.copy1
+  gate reg0.q.copy1 DFF reg0.d
+
+group reg0.q.copy2
+  gate reg0.q.copy2 DFF reg0.d
+
+group reg1.q.copy0
+  gate reg1.q.copy0 DFF reg1.d
+
+group reg1.q.copy1
+  gate reg1.q.copy1 DFF reg1.d
+
+group reg1.q.copy2
+  gate reg1.q.copy2 DFF reg1.d
+
+group reg2.q.copy0
+  gate reg2.q.copy0 DFF reg2.d
+
+group reg2.q.copy1
+  gate reg2.q.copy1 DFF reg2.d
+
+group reg2.q.copy2
+  gate reg2.q.copy2 DFF reg2.d
+
+group reg3.q.copy0
+  gate reg3.q.copy0 DFF reg3.d
+
+group reg3.q.copy1
+  gate reg3.q.copy1 DFF reg3.d
+
+group reg3.q.copy2
+  gate reg3.q.copy2 DFF reg3.d
+
+group reg4.q.copy0
+  gate reg4.q.copy0 DFF reg4.d
+
+group reg4.q.copy1
+  gate reg4.q.copy1 DFF reg4.d
+
+group reg4.q.copy2
+  gate reg4.q.copy2 DFF reg4.d
+
+group reg5.q.copy0
+  gate reg5.q.copy0 DFF reg5.d
+
+group reg5.q.copy1
+  gate reg5.q.copy1 DFF reg5.d
+
+group reg5.q.copy2
+  gate reg5.q.copy2 DFF reg5.d
+
+group reg6.q.copy0
+  gate reg6.q.copy0 DFF reg6.d
+
+group reg6.q.copy1
+  gate reg6.q.copy1 DFF reg6.d
+
+group reg6.q.copy2
+  gate reg6.q.copy2 DFF reg6.d
+
+group reg7.q.copy0
+  gate reg7.q.copy0 DFF reg7.d
+
+group reg7.q.copy1
+  gate reg7.q.copy1 DFF reg7.d
+
+group reg7.q.copy2
+  gate reg7.q.copy2 DFF reg7.d
+
+group pc.q0.copy0
+  gate pc.q0.copy0 DFF pc.d0
+
+group pc.q0.copy1
+  gate pc.q0.copy1 DFF pc.d0
+
+group pc.q0.copy2
+  gate pc.q0.copy2 DFF pc.d0
+
+group pc.q1.copy0
+  gate pc.q1.copy0 DFF pc.d1
+
+group pc.q1.copy1
+  gate pc.q1.copy1 DFF pc.d1
+
+group pc.q1.copy2
+  gate pc.q1.copy2 DFF pc.d1
+
+output we decode.store
+output data0 reg0.q
+output data1 reg1.q
+output data2 reg2.q
+output data3 reg3.q
+output data4 reg4.q
+output data5 reg5.q
+output data6 reg6.q
+output data7 reg7.q
+output pc0 pc.q0
+output addr0 i0
+output pc1 pc.q1
+output addr1 i1

@@ -1,0 +1,9 @@
+{
+  "name": "regrow-8",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test examples/machine_recipe/test_machine.mjs web/computer-recipe.test.mjs"
+  }
+}

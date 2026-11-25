@@ -1,0 +1,121 @@
+# Regrow-8 Two mutually repairing one-bit computers
+inputs A.op A.missing A.present A.expected A.readback A.usable A.last B.op B.missing B.present B.expected B.readback B.usable B.last
+
+group A.logic
+  gate A.both AND A.copy1 A.copy2
+  gate A.either OR A.copy1 A.copy2
+  gate A.vote MUX A.copy0 A.both A.either
+  gate A.next XOR A.op A.vote
+
+group A.copy0
+  gate A.copy0 DFF A.next
+
+group A.copy1
+  gate A.copy1 DFF A.next
+
+group A.copy2
+  gate A.copy2 DFF A.next
+
+group A.supervisor
+  gate A.read DFF A.request
+  gate A.search DFF A.searchNext
+  gate A.program DFF A.ready
+  gate A.verify DFF A.program
+  gate A.busy1 OR A.read A.search
+  gate A.busy2 OR A.program A.verify
+  gate A.busy OR A.busy1 A.busy2
+  gate A.idle NOT A.busy
+  gate A.refused NOT A.usable
+  gate A.retry AND A.search A.refused
+  gate A.hasNext NOT A.last
+  gate A.advance AND A.retry A.hasNext
+  gate A.searchNext OR A.read A.advance
+  gate A.ready AND A.search A.usable
+  gate A.request AND A.idle A.missing
+  gate A.mismatch XOR A.expected A.readback
+  gate A.match NOT A.mismatch
+  gate A.good AND A.present A.match
+  gate A.verified AND A.verify A.good
+
+group A.routeAddress
+  gate A.keep NOT A.read
+  gate A.carry1 AND A.advance A.address0
+  gate A.carry2 AND A.carry1 A.address1
+  gate A.address0.next XOR A.address0 A.advance
+  gate A.address0.set AND A.address0.next A.keep
+  gate A.address0 DFF A.address0.set
+  gate A.address1.next XOR A.address1 A.carry1
+  gate A.address1.set AND A.address1.next A.keep
+  gate A.address1 DFF A.address1.set
+  gate A.address2.next XOR A.address2 A.carry2
+  gate A.address2.set AND A.address2.next A.keep
+  gate A.address2 DFF A.address2.set
+
+group B.logic
+  gate B.both AND B.copy1 B.copy2
+  gate B.either OR B.copy1 B.copy2
+  gate B.vote MUX B.copy0 B.both B.either
+  gate B.next XOR B.op B.vote
+
+group B.copy0
+  gate B.copy0 DFF B.next
+
+group B.copy1
+  gate B.copy1 DFF B.next
+
+group B.copy2
+  gate B.copy2 DFF B.next
+
+group B.supervisor
+  gate B.read DFF B.request
+  gate B.search DFF B.searchNext
+  gate B.program DFF B.ready
+  gate B.verify DFF B.program
+  gate B.busy1 OR B.read B.search
+  gate B.busy2 OR B.program B.verify
+  gate B.busy OR B.busy1 B.busy2
+  gate B.idle NOT B.busy
+  gate B.refused NOT B.usable
+  gate B.retry AND B.search B.refused
+  gate B.hasNext NOT B.last
+  gate B.advance AND B.retry B.hasNext
+  gate B.searchNext OR B.read B.advance
+  gate B.ready AND B.search B.usable
+  gate B.request AND B.idle B.missing
+  gate B.mismatch XOR B.expected B.readback
+  gate B.match NOT B.mismatch
+  gate B.good AND B.present B.match
+  gate B.verified AND B.verify B.good
+
+group B.routeAddress
+  gate B.keep NOT B.read
+  gate B.carry1 AND B.advance B.address0
+  gate B.carry2 AND B.carry1 B.address1
+  gate B.address0.next XOR B.address0 B.advance
+  gate B.address0.set AND B.address0.next B.keep
+  gate B.address0 DFF B.address0.set
+  gate B.address1.next XOR B.address1 B.carry1
+  gate B.address1.set AND B.address1.next B.keep
+  gate B.address1 DFF B.address1.set
+  gate B.address2.next XOR B.address2 B.carry2
+  gate B.address2.set AND B.address2.next B.keep
+  gate B.address2 DFF B.address2.set
+
+output A_vote A.vote
+output A_read A.read
+output A_search A.search
+output A_program A.program
+output A_verify A.verify
+output A_verified A.verified
+output A_address0 A.address0
+output A_address1 A.address1
+output A_address2 A.address2
+output B_vote B.vote
+output B_read B.read
+output B_search B.search
+output B_program B.program
+output B_verify B.verify
+output B_verified B.verified
+output B_address0 B.address0
+output B_address1 B.address1
+output B_address2 B.address2

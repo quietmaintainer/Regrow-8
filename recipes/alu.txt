@@ -1,0 +1,113 @@
+# Regrow-8 8-bit ALU
+inputs a0 a1 a2 a3 a4 a5 a6 a7 b0 b1 b2 b3 b4 b5 b6 b7 op0 op1
+
+group bit0
+  gate bit0.bx XOR b0 op0
+  gate bit0.propagate XOR a0 bit0.bx
+  gate bit0.sum XOR bit0.propagate op0
+  gate bit0.generate AND a0 bit0.bx
+  gate bit0.carry MUX bit0.propagate bit0.generate op0
+  gate bit0.xor XOR a0 b0
+  gate bit0.and AND a0 b0
+  gate bit0.logic MUX op0 bit0.xor bit0.and
+  gate bit0.result MUX op1 bit0.sum bit0.logic
+
+group bit1
+  gate bit1.bx XOR b1 op0
+  gate bit1.propagate XOR a1 bit1.bx
+  gate bit1.sum XOR bit1.propagate bit0.carry
+  gate bit1.generate AND a1 bit1.bx
+  gate bit1.carry MUX bit1.propagate bit1.generate bit0.carry
+  gate bit1.xor XOR a1 b1
+  gate bit1.and AND a1 b1
+  gate bit1.logic MUX op0 bit1.xor bit1.and
+  gate bit1.result MUX op1 bit1.sum bit1.logic
+
+group bit2
+  gate bit2.bx XOR b2 op0
+  gate bit2.propagate XOR a2 bit2.bx
+  gate bit2.sum XOR bit2.propagate bit1.carry
+  gate bit2.generate AND a2 bit2.bx
+  gate bit2.carry MUX bit2.propagate bit2.generate bit1.carry
+  gate bit2.xor XOR a2 b2
+  gate bit2.and AND a2 b2
+  gate bit2.logic MUX op0 bit2.xor bit2.and
+  gate bit2.result MUX op1 bit2.sum bit2.logic
+
+group bit3
+  gate bit3.bx XOR b3 op0
+  gate bit3.propagate XOR a3 bit3.bx
+  gate bit3.sum XOR bit3.propagate bit2.carry
+  gate bit3.generate AND a3 bit3.bx
+  gate bit3.carry MUX bit3.propagate bit3.generate bit2.carry
+  gate bit3.xor XOR a3 b3
+  gate bit3.and AND a3 b3
+  gate bit3.logic MUX op0 bit3.xor bit3.and
+  gate bit3.result MUX op1 bit3.sum bit3.logic
+
+group bit4
+  gate bit4.bx XOR b4 op0
+  gate bit4.propagate XOR a4 bit4.bx
+  gate bit4.sum XOR bit4.propagate bit3.carry
+  gate bit4.generate AND a4 bit4.bx
+  gate bit4.carry MUX bit4.propagate bit4.generate bit3.carry
+  gate bit4.xor XOR a4 b4
+  gate bit4.and AND a4 b4
+  gate bit4.logic MUX op0 bit4.xor bit4.and
+  gate bit4.result MUX op1 bit4.sum bit4.logic
+
+group bit5
+  gate bit5.bx XOR b5 op0
+  gate bit5.propagate XOR a5 bit5.bx
+  gate bit5.sum XOR bit5.propagate bit4.carry
+  gate bit5.generate AND a5 bit5.bx
+  gate bit5.carry MUX bit5.propagate bit5.generate bit4.carry
+  gate bit5.xor XOR a5 b5
+  gate bit5.and AND a5 b5
+  gate bit5.logic MUX op0 bit5.xor bit5.and
+  gate bit5.result MUX op1 bit5.sum bit5.logic
+
+group bit6
+  gate bit6.bx XOR b6 op0
+  gate bit6.propagate XOR a6 bit6.bx
+  gate bit6.sum XOR bit6.propagate bit5.carry
+  gate bit6.generate AND a6 bit6.bx
+  gate bit6.carry MUX bit6.propagate bit6.generate bit5.carry
+  gate bit6.xor XOR a6 b6
+  gate bit6.and AND a6 b6
+  gate bit6.logic MUX op0 bit6.xor bit6.and
+  gate bit6.result MUX op1 bit6.sum bit6.logic
+
+group bit7
+  gate bit7.bx XOR b7 op0
+  gate bit7.propagate XOR a7 bit7.bx
+  gate bit7.sum XOR bit7.propagate bit6.carry
+  gate bit7.generate AND a7 bit7.bx
+  gate bit7.carry MUX bit7.propagate bit7.generate bit6.carry
+  gate bit7.xor XOR a7 b7
+  gate bit7.and AND a7 b7
+  gate bit7.logic MUX op0 bit7.xor bit7.and
+  gate bit7.result MUX op1 bit7.sum bit7.logic
+
+group flags
+  gate flags.or0 OR bit0.result bit1.result
+  gate flags.or1 OR bit2.result bit3.result
+  gate flags.or2 OR bit4.result bit5.result
+  gate flags.or3 OR bit6.result bit7.result
+  gate flags.or4 OR flags.or0 flags.or1
+  gate flags.or5 OR flags.or2 flags.or3
+  gate flags.or6 OR flags.or4 flags.or5
+  gate flags.zero NOT flags.or6
+  gate flags.arith NOT op1
+  gate flags.arithCarry AND bit7.carry flags.arith
+
+output y0 bit0.result
+output y1 bit1.result
+output y2 bit2.result
+output y3 bit3.result
+output y4 bit4.result
+output y5 bit5.result
+output y6 bit6.result
+output y7 bit7.result
+output z flags.zero
+output c flags.arithCarry

@@ -1,0 +1,31 @@
+# Regrow-8 4-bit enabled counter
+inputs enable rst
+
+group bit0
+  gate bit0.run NOT rst
+  gate bit0.sum XOR bit0.q enable
+  gate bit0.d AND bit0.sum bit0.run
+  gate bit0.q DFF bit0.d
+  gate bit0.carry AND bit0.q enable
+
+group bit1
+  gate bit1.sum XOR bit1.q bit0.carry
+  gate bit1.d AND bit1.sum bit0.run
+  gate bit1.q DFF bit1.d
+  gate bit1.carry AND bit1.q bit0.carry
+
+group bit2
+  gate bit2.sum XOR bit2.q bit1.carry
+  gate bit2.d AND bit2.sum bit0.run
+  gate bit2.q DFF bit2.d
+  gate bit2.carry AND bit2.q bit1.carry
+
+group bit3
+  gate bit3.sum XOR bit3.q bit2.carry
+  gate bit3.d AND bit3.sum bit0.run
+  gate bit3.q DFF bit3.d
+
+output q0 bit0.q
+output q1 bit1.q
+output q2 bit2.q
+output q3 bit3.q
