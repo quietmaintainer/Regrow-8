@@ -1,0 +1,20 @@
+fault,regrow commits,regrow next clocks,fixed-A commits,fixed-A next clocks,fixed-B commits,fixed-B next clocks
+clean,7,232,7,232,7,232
+primary:opcode,7,469,7,232,0,
+primary:operand,7,409,0,,7,232
+primary:sum,7,314,7,232,0,
+primary:bits,7,232,0,,7,232
+primary:seq,7,232,7,232,0,
+primary:take,7,232,0,,7,232
+primary:D:pc,7,232,7,232,0,
+primary:D:acc,7,232,0,,7,232
+cross-bay primaries,7,314,0,,0,
+same-bay primaries,0,,0,,0,
+tape then its primary,0,,7,232,0,
+spare then its primary,0,,0,,0,
+tape only,7,232,7,232,7,232
+direct link,7,233,7,233,7,233
+both links,0,,0,,0,
+spare only,7,232,7,232,7,232
+detour only,7,232,7,232,7,232
+unread tape at boot,0,,0,,0,

@@ -1,4 +1,4 @@
-import { COMPUTER_RECIPE_COUNTER } from './library.js';
+import { COMPUTER_RECIPE_COUNTER } from './library.js?v=2';
 
 const functions = ['Empty', 'Input pad', 'Output pad', 'NOT', 'AND', 'OR', 'XOR', 'MUX', 'D flip-flop'];
 const wireColor = '#45a69d', gateColor = '#69d5c3', registerColor = '#ad9beb';

@@ -1,6 +1,6 @@
-import { openComputerRecipe } from './computer-recipe.mjs';
-import { computerRecipeView, drawComputerRecipe } from './computer-recipe-view.js';
-import { COMPUTER_RECIPE_COUNTER, COMPUTER_RECIPE_CPU } from './library.js';
+import { openComputerRecipe } from './computer-recipe.mjs?v=2';
+import { computerRecipeView, drawComputerRecipe } from './computer-recipe-view.js?v=2';
+import { COMPUTER_RECIPE_COUNTER, COMPUTER_RECIPE_CPU } from './library.js?v=2';
 
 const canvas = document.querySelector('#fabric');
 const context = canvas.getContext('2d');
@@ -23,7 +23,15 @@ let variant = new URLSearchParams(location.search).get('variant') === COMPUTER_R
 
 const view = computerRecipeView(canvas, {
   damage(options) { if (simulator) show(simulator.damage(options)); },
-  chooseDesign(design) { void load(design); },
+  chooseDesign(design) {
+    if (design === 'hx8k') {
+      // Restore the circuit selection before navigating so browser Back shows it.
+      controls();
+      location.assign(new URL('../workbench.html', import.meta.url));
+      return;
+    }
+    void load(design);
+  },
   setEnable(enabled) { if (simulator) show(simulator.setEnabled(enabled)); },
 });
 

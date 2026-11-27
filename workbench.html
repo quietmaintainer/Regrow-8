@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111a23"><title>Chip Workbench · Regrow-8</title>
+  <link rel="stylesheet" href="./web/demo.css"><link rel="stylesheet" href="./web/chip.css?v=3">
+  <script type="module" src="./web/chip-workbench.mjs?v=4"></script>
+</head>
+<body><main class="chip-app">
+  <header class="chip-header">
+    <div>
+      <div class="chip-heading"><h1>Chip Workbench</h1><a class="chip-back" href="./">← Regrow-8 viewer</a></div>
+      <p>Clock the iCE40 HX8K, inject faults, and follow your circuit through repair.</p>
+    </div>
+    <div class="file-tools">
+      <label class="file-button">Import recipe<input id="recipe-file" type="file" accept=".txt,text/plain"></label>
+      <label class="file-button">Import run<input id="bundle-file" type="file" accept=".json,application/json"></label>
+      <button id="export-recipe" type="button" disabled>Export recipe</button>
+    </div>
+  </header>
+  <p id="notice" role="status">Loading the protected HX8K build…</p>
+  <section class="panel transport" aria-label="Execution controls">
+    <div class="toolbar"><label>Execution <select id="mode"><option value="fpga">Live mapped FPGA</option><option value="replay">Verified FPGA replay</option></select></label>
+      <label id="case-label">Trial <select id="scenario"></select></label><strong id="evidence"></strong></div>
+    <div class="toolbar"><button id="play" type="button" class="primary">Play</button><button id="restart" type="button">Reset</button>
+      <button id="one-clock" type="button">+1 clock</button><button id="next-event" type="button">Next event</button>
+      <button id="next-commit" type="button">Next instruction</button><span id="clock-readout"></span></div>
+    <label id="scrub-label">Replay clock <input id="scrub" type="range" min="0" max="1" value="0"></label>
+    <dl class="chip-readouts"><div><dt>Program counter</dt><dd id="pc">—</dd></div><div><dt>Accumulator</dt><dd id="acc">—</dd></div>
+      <div><dt>Instructions</dt><dd id="edges">—</dd></div><div><dt>Last transition</dt><dd id="transition">—</dd></div></dl>
+  </section>
+  <section class="panel" id="fpga-live" aria-label="Live FPGA controls" hidden>
+    <div class="panel-title"><h2>Live chip controls</h2><label>Spare policy (resets chip) <select id="spare-policy">
+      <option value="0">Regrow on demand</option><option value="1">Hot spare A</option><option value="2">Hot spare B</option></select></label></div>
+    <div class="toolbar"><label>Clocks <input type="number" id="run-count" value="170" min="1" max="100000" required></label><button type="button" id="run-clocks">Run clocks</button>
+      <label>Fault <select id="live-fault"></select></label><button type="button" id="inject">Inject &amp; pause</button></div>
+    <p id="fpga-status" class="muted" role="status"></p>
+    <p class="muted">Next instruction clocks through boot or repair. Inject applies one fault on the next rising edge and pauses. Reset clears the faults.</p>
+  </section>
+  <div class="chip-grid">
+    <section class="panel" aria-label="Design selection"><h2>Design</h2><p class="muted" id="design-hint">Select a role to follow its gates, workers and tape.</p>
+      <div id="bays"></div><div id="infrastructure" class="tag-list"></div>
+      <button id="edit-jump" type="button">Edit circuit ↓</button></section>
+    <section class="panel fabric-panel" aria-label="Chip fabric"><div class="panel-title"><h2>Fabric</h2><label>Layer <select id="layer">
+      <option value="placed">HX8K placement</option><option value="logic">Logic connections</option></select></label></div>
+      <div class="toolbar map-tools"><button id="minus" type="button" aria-label="Zoom out">−</button><button id="plus" type="button" aria-label="Zoom in">+</button>
+        <button id="fit" type="button">Fit</button><label><input type="checkbox" id="routes" checked> Output routes</label>
+        <label id="levels-label" hidden><input type="checkbox" id="levels" checked> Signal levels</label></div>
+      <canvas id="chip-map" width="800" height="680" tabindex="0" role="img" aria-label="Selectable chip map" aria-describedby="map-info"></canvas>
+      <p id="map-info" class="muted"></p><div id="site-nav" class="toolbar"><button id="previous-site" type="button">Previous site</button><button id="next-site" type="button">Next site</button></div>
+    </section>
+    <aside class="panel" aria-label="Component inspector"><h2>Inspector</h2><strong id="component-name">—</strong><dl id="facts" class="facts"></dl>
+      <label>CRC gate <select id="gate"></select></label><label><input type="checkbox" id="all-gates"> Browse all gates</label>
+      <div class="tag-list" id="signal-links"></div><button id="locate" type="button">Edit selected gate</button>
+      <div id="tape-inspect"><label>Tape address <input type="number" id="tape-address" min="0" value="0"></label><output id="word"></output></div>
+      <div class="toolbar" id="actions"></div>
+    </aside>
+  </div>
+  <section class="panel" id="timeline" hidden>
+    <div class="panel-title"><h2>Timeline</h2><div class="toolbar">
+      <label id="follow-events-label" hidden><input type="checkbox" id="follow-events" checked> Follow latest</label>
+      <label><input type="checkbox" id="selected-events"> Selected component</label>
+      <label><input type="checkbox" id="show-words"> Include each word</label>
+    </div></div>
+    <p id="timeline-help" class="muted"></p>
+    <select id="events" size="6" aria-label="FPGA events" aria-describedby="timeline-help"></select>
+    <div class="toolbar" id="replay-jumps" hidden><button id="jump-window" type="button">Injection window</button><button id="jump-verified" type="button">Reconstruction verified</button>
+      <button id="jump-spare" type="button">Spare loaded</button><button id="jump-result" type="button">First commit after fault</button></div>
+  </section>
+  <details class="panel" id="editor"><summary>Recipe editor</summary>
+    <div class="editor-columns"><div><label for="source">CRC text recipe</label><textarea id="source" spellcheck="false" aria-describedby="validation"></textarea>
+      <div class="toolbar"><button id="apply" type="button">Validate recipe</button><button id="undo" type="button">Undo</button><button id="redo" type="button">Redo</button><button id="original" type="button">Restore build recipe</button></div></div>
+      <div class="gate-tools"><h3>Gate &amp; connections</h3><label>Gate name <input id="gate-name" list="signals"></label>
+        <label>Primitive <select id="op"><option>NOT</option><option>AND</option><option>OR</option><option>XOR</option><option>MUX</option><option>DFF</option></select></label>
+        <div id="ports"></div><datalist id="signals"></datalist>
+        <div class="toolbar"><button id="replace-gate" type="button">Reconnect gate</button><button id="add-gate" type="button">Add gate</button><button id="remove-gate" type="button">Delete gate</button></div>
+        <p class="muted">New gates join the selected gate’s group. Input and output declarations can be edited in the source.</p>
+      </div></div><p id="validation" role="status"></p>
+  </details>
+  <details class="panel" id="comparison" hidden><summary>Compare with previous imported build</summary><p id="compare-text"></p></details>
+  <footer><span id="build-id"></span> · <a href="./docs/workbench.md">Workbench guide</a></footer>
+  <noscript>Enable JavaScript to use the workbench.</noscript>
+</main></body></html>

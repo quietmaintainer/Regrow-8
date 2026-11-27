@@ -6,11 +6,13 @@ Regrow-8 simulates digital circuits that grow from recipes and reroute around da
 
 [Open the GitHub Pages demo](https://quietmaintainer.github.io/Regrow-8/)
 
+[Open Chip Workbench](https://quietmaintainer.github.io/Regrow-8/workbench.html) to clock the protected iCE40 HX8K live, inject faults, inspect placed signals, or replay verified repair trials. The bundled build runs in the browser. [Workbench guide](docs/workbench.md)
+
 - **8-bit CPU** with an accumulator, program counter, ROM, and external RAM. Build it on the grid, watch its active wires, and apply the repeatable 15% permanent fault mask.
 - **4-bit enabled counter** that grows from its edge tape one row per step. Toggle its enable input to hold the count, or damage the fabric and watch a new tape repair it.
 - **Cell inspector** for gate functions, logic groups, wire tracks, and active pin contacts. Use the erase and permanent damage tools on individual cells or brush areas.
 
-Serve the project directory with any static HTTP server. For a local preview with Python, run `python -m http.server 8000 --bind 127.0.0.1` and open [Regrow-8](http://127.0.0.1:8000/). The site uses relative URLs for GitHub Pages project paths.
+Serve the project directory with any static HTTP server. For a local run with Python, use `python -m http.server 8000 --bind 127.0.0.1` and open the [Regrow-8 viewer](http://127.0.0.1:8000/) or [Chip Workbench](http://127.0.0.1:8000/workbench.html). The site uses relative URLs for GitHub Pages project paths.
 
 ## Write a recipe
 
@@ -36,9 +38,13 @@ Use GRFP to pack a recipe file into a parity-protected archive for storage and r
 
 ## Experiments
 
+The [FPGA experiment](examples/fpga_fabric/README.md) maps the CRC CPU and its repair fabric to an iCE40 HX8K. On-demand Regrow preserved execution in 8/8 single-primary fault trials on the mapped design versus 4/8 for each fixed hot-spare assignment. [Recorded results](examples/fpga_fabric/recorded-hx8k.csv)
+
+The [GRFP-protected FPGA profile](examples/fpga_fabric/GRFP.md) recovers from loss of a recipe tape followed by its worker. The chip reconstructs the tape from one parity row, verifies the words with SHA-256, and loads a spare. Run `npm run test:fpga:grfp` to rebuild and run the 26-case panel, or `npm run test:fpga:live` to check the bundled live simulator against the recorded mapped pin events. [Protected trial results](examples/fpga_fabric/recorded-grfp-hx8k.csv)
+
 With Node 22 or later, run `npm test` to check the fabric, viewer simulation, and repair experiments. The experiment guide covers the ISA, the matched wiring tests, live triplicated CPU registers, and two mutually repairing cores with parity-protected `.grfp` recipes. [Experiment guide](examples/machine_recipe/README.md) · [Recorded results](examples/machine_recipe/results/autonomy.json)
 
-The browser shows the single-copy CPU and enabled counter. A host planner chooses gates and routes. The triplicated CPU and peer controllers run in the Node experiments.
+The original viewer shows the single-copy CPU and enabled counter. A host planner chooses gates and routes. The triplicated CPU and peer controllers run in the Node experiments.
 
 ## Credits
 

@@ -3,7 +3,7 @@ import { bus, DFF, expand } from '../examples/machine_recipe/logic.mjs';
 import { mask } from '../examples/machine_recipe/damage.mjs';
 import { planCpuGrowth, planGrowth } from '../examples/machine_recipe/grow.mjs';
 import { pinout } from '../examples/machine_recipe/verify.mjs';
-import { COMPUTER_RECIPE_COUNTER, COMPUTER_RECIPE_CPU, COMPUTER_RECIPE_SIDE, COMPUTER_RECIPE_VARIANTS } from './library.js';
+import { COMPUTER_RECIPE_COUNTER, COMPUTER_RECIPE_CPU, COMPUTER_RECIPE_SIDE, COMPUTER_RECIPE_VARIANTS } from './library.js?v=2';
 import { RecipeRowTape } from './computer-recipe-tape.mjs';
 
 const cpuPins = pinout('cpu');

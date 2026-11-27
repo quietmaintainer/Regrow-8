@@ -1,0 +1,27 @@
+fault,firstCommit,matchingCommits,nextCommitAfterInjection,spareLoadedAfterInjection,rebuiltMask,refusedMask,badDigestMask,loadedSpareMask,checkedWordsPublished
+clean,23672,7,232,,0,0,0,0,377
+lost tape then primary: opcode,23672,7,33540,33138,1,0,0,1,442
+lost tape then primary: operand,23672,7,33826,33492,2,0,0,2,450
+lost tape then primary: sum,23672,7,33009,32751,4,0,0,4,431
+lost tape then primary: bits,23672,7,29783,29582,8,0,0,8,392
+lost tape then primary: seq,23672,7,30553,30370,16,0,0,16,399
+lost tape then primary: take,23672,7,30472,30314,32,0,0,32,398
+lost tape then primary: D:pc,23672,7,31925,31791,64,0,0,64,416
+lost tape then primary: D:acc,23672,7,33573,33481,128,0,0,128,465
+bit flip then primary: opcode,23672,7,37472,37070,1,0,1,1,442
+bit flip then primary: operand,23672,7,37774,37440,2,0,2,2,450
+bit flip then primary: sum,23672,7,36159,35901,4,0,4,4,431
+bit flip then primary: bits,23672,7,31335,31134,8,0,8,8,392
+bit flip then primary: seq,23672,7,32119,31936,16,0,16,16,399
+bit flip then primary: take,23672,7,32036,31878,32,0,32,32,398
+bit flip then primary: D:pc,23672,7,34285,34151,64,0,64,64,416
+bit flip then primary: D:acc,23672,7,38311,38219,128,0,128,128,465
+lost adder tape at boot,53159,7,232,,4,0,0,0,377
+corrupt adder tape at boot,56309,7,232,,4,0,4,0,377
+two missing tapes,23672,0,,,0,4,0,0,377
+missing tape and corrupt survivor,23672,0,,,0,4,8,0,377
+missing tape and missing parity,23672,0,,,0,4,0,0,377
+missing tape and corrupt parity,23672,0,,,0,4,256,0,377
+missing parity with good adder tape,23672,7,3522,3264,0,0,0,4,431
+two corrupt tapes,23672,0,,,0,4,12,0,377
+two lost tapes with healthy workers,23672,7,232,,0,0,0,0,377

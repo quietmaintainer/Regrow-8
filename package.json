@@ -4,6 +4,9 @@
   "type": "module",
   "engines": { "node": ">=22" },
   "scripts": {
-    "test": "node --test examples/machine_recipe/test_machine.mjs web/computer-recipe.test.mjs"
+    "test": "node --test examples/machine_recipe/test_machine.mjs examples/fpga_fabric/profile.test.mjs web/computer-recipe.test.mjs web/chip-workbench.test.mjs web/live-fpga.test.mjs",
+    "test:fpga": "node examples/fpga_fabric/run.mjs",
+    "test:fpga:grfp": "node examples/fpga_fabric/run.mjs --grfp",
+    "test:fpga:live": "node examples/fpga_fabric/verify-live.mjs"
   }
 }
